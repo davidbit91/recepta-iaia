@@ -1,0 +1,63 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#7B7B7B;
+}
+
+/*----- Imatge ------*/
+
+.imgApple{
+    width:900px;
+    height: 550px;
+}
+
+.textApple{
+    position: absolute;
+    top: 15%;
+    left: 23.6%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 70px;
+}
+
+/*----- Seccions -----*/
+
+.sections{
+    width:634px;
+    margin-top: 30px;
+    margin-left: 100px;
+    border-bottom:2px solid #7B7B7B;
+}
+
+.sections>p{
+    width:634px;
+    font-size:18px;
+}
+
+.imgRecipe{
+    width:285px;
+    margin-left: 100px;
+}
+
+.ulDashed{
+    list-style-type: none;
+}
+
+.ulDashed li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -9px ;
+}
+
+/*----- Directions -----*/
+
+.directions{
+    width:634px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.olNumbers{
+    margin-left: -14px;
+}
+
